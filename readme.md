@@ -6,3 +6,8 @@
 
 ## Developer notes : Convert raw github to cdn:
 - https://stackoverflow.com/questions/17341122/link-and-execute-external-javascript-file-hosted-on-github
+
+## TODO 
+- Sort by clicking columns?
+- Require min query length
+- abstract proper/generic type inference checking before sort
