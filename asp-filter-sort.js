@@ -74,7 +74,7 @@
         var date = new Date(tohyphen(getVal(elems[0])));
         var isDate = date instanceof Date && !isNaN(date.valueOf());
 
-        if (isDate) return elems.sort((a,b) => new Date(tohyphen(getVal(a))) - new Date(tohyphen(getVal(b))));
+        if (isDate) return elems.sort((a,b) => new Date(tohyphen(getVal(b))) - new Date(tohyphen(getVal(a))));
         else return elems.sort((a,b) => getVal(a) < getVal(b) ? -1 : 1);
 
     } 
