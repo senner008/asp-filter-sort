@@ -11,3 +11,4 @@
 - Sort by clicking columns?
 - Require min query length
 - abstract proper/generic type inference checking before sort
+- english/american dates
